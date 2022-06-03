@@ -1,0 +1,17 @@
+.post-header {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
+div {
+  background-color: yellow;
+}
+
+img {
+  width: 100%;
+}
+
+.profilpicture {
+  justify-self: end;
+  grid-row: span 2;
+}
