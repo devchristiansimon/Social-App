@@ -1,7 +1,16 @@
+:root {
+  --font-main-color: #ffffff;
+  --font-second-color: #727477;
+  --background-main-color: #323436;
+  --background-second-color: #000000;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--background-main-color);
+  color: var(--font-main-color);
 }
