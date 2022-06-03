@@ -1,10 +1,16 @@
+.post {
+  width: 375px;
+}
+
 .post-header {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 40% 60%;
+  height: auto;
 }
 
 div {
-  background-color: yellow;
+  align-content: center;
 }
 
 img {
@@ -14,4 +20,17 @@ img {
 .profilpicture {
   justify-self: end;
   grid-row: span 2;
+}
+
+.postmore {
+  grid-row: span 2;
+}
+
+.post_user_title {
+  padding-left: 10px;
+}
+
+.posted_ago {
+  font-size: 0.8rem;
+  color: var(--font-second-color);
 }
