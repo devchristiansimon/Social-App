@@ -19,7 +19,7 @@
   width: 40px;
   height: 40px;
   left: 32px;
-  top: 170px;
+  top: 165px;
   border: 1px;
   border-radius: 50%;
 }
@@ -30,4 +30,7 @@
   height: 50px;
   border: 1px solid black;
   border-radius: 50%;
+  right: 0.1px;
+  bottom: 0px;
+  top: 0.5;
 }
