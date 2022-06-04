@@ -1,0 +1,8 @@
+.sec-section {
+  display: flex;
+}
+
+.sec-section img {
+  width: 30px;
+  height: auto;
+}

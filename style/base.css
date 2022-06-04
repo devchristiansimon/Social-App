@@ -13,4 +13,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-main-color);
   color: var(--font-main-color);
+  max-width: 375px;
+}
+.icon {
+  width: 20px;
 }

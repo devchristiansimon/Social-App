@@ -3,33 +3,31 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  gap: 130px;
-  position: fixed;
 }
-.icon {
-  color: white;
-  width: 30px;
-  height: auto;
-}
-.sec-section {
-  display: grid;
-  grid-template-columns: repeat(3fr, 1fr);
-}
-.sec-section {
-  display: flex;
-  align-content: center;
+h1 {
+  font-size: 14px;
 }
 
-.meal1 {
-  width: 30px;
-  height: auto;
+.header__msg--frame {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--font-second-color);
+  border-radius: 50%;
+  position: relative;
 }
-.meal2 {
-  width: 30px;
-  height: auto;
+header .icon {
+  position: absolute;
+  left: 7px;
+  top: 6px;
 }
-.meal3 {
-  width: 30px;
-  height: auto;
+.header__msg--point {
+  background-color: #f62e8e;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 5px;
 }
