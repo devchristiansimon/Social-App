@@ -1,8 +1,40 @@
 .sec-section {
   display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-end;
+  margin: 12px 0px 24px 0px;
+  gap: 12px;
+  width: 327px;
 }
 
 .sec-section img {
-  width: 30px;
-  height: auto;
+  width: 100px;
+  height: 140px;
+  border-radius: 16px;
+  top: ;
+}
+.main__profile--pic {
+  position: relative;
+
+  left: 32px;
+  top: 165px;
+  border: 1px;
+  border-radius: 50%;
+}
+.main__profile--pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.main__profile--frame {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  right: 340px;
+  bottom: 0px;
+  top: 0.5;
 }
