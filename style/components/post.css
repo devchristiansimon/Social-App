@@ -1,5 +1,8 @@
 .post {
   width: 375px;
+  margin: 0;
+  padding: 20px 20px;
+  margin-bottom: 30px;
 }
 
 .post-header {
@@ -51,6 +54,11 @@ hr {
 
 .postcontent {
   min-height: 100px;
+  margin: 10px 0;
+}
+
+.postcontent img {
+  border-radius: 20px;
 }
 .postfooter {
   display: flex;
@@ -70,5 +78,5 @@ hr {
 }
 
 .postfooter div {
-  gap: 15px 1;
+  gap: 15px;
 }

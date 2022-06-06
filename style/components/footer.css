@@ -1,9 +1,7 @@
 .footer__nav--bar {
   background-color: black;
   width: 375px;
-  margin: 0;
-  padding: 0;
-  height: 70px;
+  height: 50px;
   position: fixed;
   bottom: 0;
 }
@@ -12,7 +10,9 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 0;
+  margin-top: 0px;
+  padding: 0px;
+  padding-top: 8px;
 }
 
 .footer__nav--bar ul li {
