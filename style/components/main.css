@@ -18,23 +18,38 @@
   position: relative;
 
   left: 32px;
-  top: 165px;
+  top: 100px;
   border: 1px;
   border-radius: 50%;
+  z-index: 1;
 }
 .main__profile--pic img {
   width: 40px;
   height: 40px;
+  border: 1px solid black;
   border-radius: 50%;
+  top: 3px;
+  left: 2.5px;
+  position: absolute;
 }
 
 .main__profile--frame {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  right: 340px;
-  bottom: 0px;
-  top: 0.5;
+  background-color: purple;
+  z-index: 1;
+}
+.profpic-fem {
+  position: relative;
+
+  left: 32px;
+  top: 155px;
+  border: 1px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.positioning {
+  position: relative;
 }
